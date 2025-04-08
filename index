@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Target Home Page</title>
+  <meta name="viewport" content="viewport">
+  <!--CSS resets-->
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+
+<body>
+  <div class="NavBar">
+    <a class="active" href = "#home"> Home </a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input name="search" placeholder="Search... type ENTER to submit or use the button">
+      </form>
+    </div>
+
+  </div>
+
+  <p>Hello, world!</p>
+
+</body>
+
+</html>
