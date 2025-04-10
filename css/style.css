@@ -1,0 +1,93 @@
+
+.category-links {
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+nav.main-nav {
+  background-color: #cc0000;
+  padding: 0.5rem 1rem;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+header.signin-site-header {
+  background-color: #cc0000;
+  height: 20px;
+}
+
+main.signincontainer {
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 60px;
+  display: block;
+  margin: 2rem auto 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.terms {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.terms a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+footer.signinfooter {
+  padding: 1rem;
+  margin-top: 3rem;
+}
