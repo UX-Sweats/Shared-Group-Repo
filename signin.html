@@ -30,7 +30,9 @@
         <input type="text" id="userInput" name="userInput" placeholder="Email or phone number" required aria-required="true">
       </div>
 	  <div class="checkbox">
-        <input type="checkbox" checked id="staySignedIn" /> Keep me signed in <span title="Stay signed in on this device.">ℹ️</span>
+        <input type="checkbox" checked id="staySignedIn" name="staySignedIn" checked>
+        <label for="staySignedIn">Keep me signed in</label>
+        <span class="info-icon" title="Stay signed in on this device." aria-label="Info">ℹ️</span>
       </div>
       <button type="submit" class="btn">Continue</button>
     </form>
