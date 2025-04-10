@@ -4,6 +4,17 @@
   border-bottom: 1px solid #808080;
 }
 
+header.signin-site-header {
+  background-color: #cc0000;
+  height: 20px;
+}
+
+main.signincontainer {
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
@@ -48,4 +59,9 @@ input[type="text"] {
 .terms a {
   color: #0073e6;
   text-decoration: none;
+}
+
+footer.signinfooter {
+  padding: 1rem;
+  margin-top: 3rem;
 }
