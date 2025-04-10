@@ -1,4 +1,34 @@
 /*Use this for partial borders:  https://unused-css.com/blog/css-partial-borders/ */
+#categories-header-group {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 1 rem;
+  background-color: #FF0000;
+  padding: 1 rem;
+  margin: auto;
+}
+#categories-header {
+  text-align: center;
+  font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 2.779em;
+}
+#arrow-button {
+  display: flex;
+  align-items: left;
+  margin-right: 80%;
+  margin-top: 15%;
+}
+#filter-button {
+  display: inline-flex;
+  align-items: right;
+  margin-left: 90%;
+}
+#home-button {
+  display: inline-flex;
+  align-items: right;
+  margin-left: 90%;
+}
 .dropdown-content {
   display: block;
   text-align: left;
