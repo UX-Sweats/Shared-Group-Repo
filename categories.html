@@ -11,36 +11,63 @@
   <script scr="js/script.js" async></script>
 </head>
 <body>
-  <div class="nav_bar">
-    <img class="img_nav" src="img/target_logo.png" alt="image of target logo">
-    <a class="active" href = "#home"> Home </a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input name="search" placeholder="Search... type ENTER to submit or use the button">
-      </form>
+  <img class="img_nav" src="img/target_logo.png" alt="image of target logo">
+  <div id="categories-header"> <!--Header underneath Target logo-->
+  <button id="arrow-button"></button> <!--Arrow Button-->
+  <h1>All Categories</h1>
+  <button id="filter-button"></button> <!--Filter Button-->
+  <button id="home-button"></button> <!--Home Button-->
+  </div>
+  <div class="categories-dropdown"> <!--Lifestyle-->
+    <button>Lifestyle</button>
+    <div class="dropdown-content">
+      <a href="#" class="category-links">Baby</a>
+      <a href="#" class="category-links">Clothing, Shoes & Accessories</a>
+      <a href="#" class="category-links">Furniture</a>
+      <a href="#" class="category-links">Grocery</a>
+      <a href="#" class="category-links">Home</a>
+      <a href="#" class="category-links">Kitchen & Dining</a>
+      <a href="#" class="category-links">Luggage</a>
+      <a href="#" class="category-links">Outdoor Living & Garden</a>
+      <a href="#" class="category-links">Pets</a>
     </div>
-  <div> <!--Header-->
-
   </div>
-  <div> <!--Lifestyle-->
-
+  <div class="categories-dropdown"> <!--Entertainment-->
+    <button>Entertainment</button>
+    <div class="dropdown-content">
+      <a href="#" class="category-links">Electronics</a>
+      <a href="#" class="category-links">Movies, Music & Books</a>
+      <a href="#" class="category-links">Sports & Outdoors</a>
+      <a href="#" class="category-links">Toys</a>
+      <a href="#" class="category-links">Video Games</a>
+    </div>
   </div>
-  <div> <!--Entertainment-->
-
+  <div class="categories-dropdown"> <!--Seasonal-->
+    <button>Seasonal</button>
+    <div class="dropdown-content">
+      <a href="#" class="category-links">Bullseye's Playground</a>
+      <a href="#" class="category-links">Easter</a>
+      <a href="#" class="category-links">Gift Cards</a>
+      <a href="#"class="category-links">Gift Ideas</a>
+      <a href="#" class="category-links">Gift Ideas for Mom</a>
+      <a href="#" class="category-links">Party Supplies</a>
+    </div>
   </div>
-  <div> <!--Seasonal-->
-
+  <div class="categories-dropdown"> <!--Personal Care-->
+    <button>Personal Care</button>
+    <div class="dropdown-content">
+      <a href="#" class="category-links">Beauty</a>
+      <a href="#" class="category-links">Ulta Beauty at Target</a>
+      <a href="#" class="category-links">Health</a>
+      <a href="#" class="category-links">Personal Care</a>
+    </div>
   </div>
-  <div> <!--Personal Care-->
-
+  <div class="categories-dropdown"> <!--School Supplies-->
+    <button>School Supplies</button>
+    <div class="dropdown-content">
+      <a href="#" class="category-links">Arts, Crafts & Sewing</a>
+      <a href="#" class="category-links">School & Office Supplies</a>
+    </div>
   </div>
-  <div> <!--School Supplies-->
-
-  </div>
-
-  <p>Hello, world!</p>
-
 </body>
 </html>
