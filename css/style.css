@@ -38,3 +38,14 @@ input[type="text"] {
   cursor: pointer;
   margin-top: 1rem;
 }
+
+.terms {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.terms a {
+  color: #0073e6;
+  text-decoration: none;
+}
