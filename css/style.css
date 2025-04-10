@@ -15,6 +15,12 @@ main.signincontainer {
   margin: 0 auto;
 }
 
+.logo {
+  width: 60px;
+  display: block;
+  margin: 2rem auto 1rem;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
