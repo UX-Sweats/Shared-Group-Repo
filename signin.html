@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="signinheader"></div>
+  <header class="signin-site-header" role="banner"></header>
   <nav>
     <ul class="nav-list">
 	  <li><a href="index.html"></li>
@@ -19,12 +19,17 @@
       <li><a href="categories.html"></li>
     </ul>
   </nav>
-  <div class="signincontainer">
-    <img src="img/target_logo.jpg" class="logo" alt="Target Logo">
-    <h2>Sign in or create account</h2>
+  <main class="signincontainer" role="main">
+    <figure class="signin-logo-figure">
+      <img src="img/target_logo.jpg" class="logo" alt="Target Logo">
+    </figure>
+	<h1>Sign in or create account</h1>
     <form id="loginForm">
-      <input type="text" id="userInput" placeholder="Email or phone number" />
-      <div class="checkbox">
+      <div class="form-group">
+        <label for="userInput">Email or phone number</label>
+        <input type="text" id="userInput" name="userInput" placeholder="Email or phone number" required aria-required="true">
+      </div>
+	  <div class="checkbox">
         <input type="checkbox" checked id="staySignedIn" /> Keep me signed in <span title="Stay signed in on this device.">ℹ️</span>
       </div>
       <button type="submit" class="btn">Continue</button>
@@ -40,6 +45,7 @@
         <a href="https://www.target.com/c/target-privacy-policy/-/n-4sr7p" class="nostyling">Target privacy policy</a>
       </div>
     </div>
+  </main>
   <div class="signinfooter">
     <img src="img/target_footer.jpg" class="footer" alt="Footer Info">
   </div>
