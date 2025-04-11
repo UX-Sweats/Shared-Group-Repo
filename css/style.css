@@ -151,3 +151,51 @@ footer.signinfooter {
 @media screen and (min-width: 992px) {
 
 }
+
+/*Hailie's comments for Index*/
+header.homeheader {
+  background-color: #cc0000;
+  height: 20px;
+}
+
+.topnav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 2px dotted rgb(96 139 168);
+}
+
+.topnav img {
+  width:4.632em;
+}
+
+.topnav :first-child {
+  align-self: center;
+}
+
+/*
+#home_humburger{
+  margin-left: auto;
+}
+#home_logo {
+  
+}
+#home_logo {
+  margin-right: 80%;
+}
+#home_cart {
+  margin-right: 80%;
+}
+  */
+::placeholder{
+  color: #777777;
+}
+
+input.nav_search {
+  border: none;
+  background-color: #F7F7F7;
+  border-radius: 25px;
+  margin: 1em;
+}
+
+
