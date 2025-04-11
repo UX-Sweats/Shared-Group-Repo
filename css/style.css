@@ -89,7 +89,6 @@ footer.signinfooter {
 
 /*HENRY'S SECTION*/
 /*Use this for partial borders: https://unused-css.com/blog/css-partial-borders/ */
-
 #categories-flex-container {
   display: flex;
   align-items: center;
@@ -129,6 +128,9 @@ footer.signinfooter {
   display: flex;
   width: 100%;
   height: auto; 
+  text-align: left;
+  font-size: 1.667em;
+  font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 .dropdown-content {
   display: grid;
