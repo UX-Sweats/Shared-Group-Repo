@@ -99,8 +99,10 @@ footer.signinfooter {
   height: auto;
   background-color: #FF0000;
   box-sizing: border-box;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1rem;
   z-index: 1000;
+  top: 0;
+  transition: top 0.3s; /*Must pair with javascript to have the top bar disappear.*/
 }
 
 #arrow-button, #filter-button, #home-button {
@@ -117,26 +119,28 @@ footer.signinfooter {
 }
 
 .categories-dropdown {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding-top: 1.25rem;
   display: block;
   position: relative;
 }
 .dropdown-content {
-  display: none;
+  display: grid;
   text-align: left;
-  padding: 1rem 0.75rem; /* now properly spaced */
+  padding: 8px 16px; /* now properly spaced */
 }
 
 .category-button {
-  display: grid;
+  margin-top: 20px;
+  display: flex;
   width: 100%;
-  height: ;  
+  height: auto;  
 }
 
 .category-links {
   padding: 1rem 0.75rem;
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
+  width: 100%;
 }
 
