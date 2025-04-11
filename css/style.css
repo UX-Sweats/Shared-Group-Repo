@@ -89,6 +89,12 @@ footer.signinfooter {
 
 /*HENRY'S SECTION*/
 /*Use this for partial borders: https://unused-css.com/blog/css-partial-borders/ */
+#category-logo {
+  display: block;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  box-sizing: border-box; /*Unsure of how to fix this so Target logo sits on top of the red bar.*/
+}
 #categories-flex-container {
   display: flex;
   align-items: center;
@@ -125,11 +131,13 @@ footer.signinfooter {
 }
 .categories-dropdown button {
   display: flex;
-  width: 100%;
-  height: auto; 
+  width: 100%; 
   text-align: left;
-  font-size: 1.667em;
+  font-size: 2em;
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  height: auto;
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
 }
 .dropdown-content { /*REMOVE POSITION: ABSOLUTE IF YOU WANT DROP DOWNS TO NOT CLIP THROUGH!*/
   display: none;
@@ -141,10 +149,12 @@ footer.signinfooter {
 }
 .dropdown-content a {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
   box-sizing: border-box;
   border-bottom: 1px solid #808080;
   width: 100%;
+
 }
 .dropdown-content a:hover {
   background-color: #e5e5e5; /* optional hover effect */
