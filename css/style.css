@@ -99,13 +99,11 @@ footer.signinfooter {
   height: auto;
   background-color: #FF0000;
   box-sizing: border-box;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   z-index: 1000;
 }
 
-#arrow-button,
-#filter-button,
-#home-button {
+#arrow-button, #filter-button, #home-button {
   display: flex;
   align-items: center;
   min-width: 0; /* prevents flex overflow */
@@ -118,13 +116,26 @@ footer.signinfooter {
   font-size: 2.779em;
 }
 
-.dropdown-content {
+.categories-dropdown {
+  margin-top: 1rem;
+  padding-top: 1.25rem;
   display: block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
   text-align: left;
   padding: 1rem 0.75rem; /* now properly spaced */
 }
 
+.category-button {
+  display: grid;
+  width: 100%;
+  height: ;  
+}
+
 .category-links {
+  padding: 1rem 0.75rem;
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
 }
