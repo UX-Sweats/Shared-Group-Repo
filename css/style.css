@@ -132,18 +132,26 @@ footer.signinfooter {
   font-size: 1.667em;
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
-.dropdown-content {
-  display: grid;
+.dropdown-content { /*REMOVE POSITION: ABSOLUTE IF YOU WANT DROP DOWNS TO NOT CLIP THROUGH!*/
+  display: none;
   text-align: left;
-  padding: 8px 16px; /* now properly spaced */
+  padding: 1rem; /* now properly spaced */
+  background-color: #f9f9f9;
+  flex-direction: column;
 }
 .dropdown-content a {
   display: block;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
   border-bottom: 1px solid #808080;
   width: 100%;
 }
-
+.dropdown-content a:hover {
+  background-color: #e5e5e5; /* optional hover effect */
+}
+.show {
+  display:block;
+}
 /*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
 @media screen and (min-width: 768px) {
 
