@@ -124,23 +124,28 @@ footer.signinfooter {
   display: block;
   position: relative;
 }
+.categories-dropdown button {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: auto; 
+}
 .dropdown-content {
   display: grid;
   text-align: left;
   padding: 8px 16px; /* now properly spaced */
 }
-
-.category-button {
-  margin-top: 20px;
-  display: flex;
-  width: 100%;
-  height: auto;  
-}
-
-.category-links {
-  padding: 1rem 0.75rem;
-  border-top: 1px solid #808080;
+.dropdown-content a {
+  display: block;
+  padding: 1rem;
   border-bottom: 1px solid #808080;
   width: 100%;
 }
 
+/*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
