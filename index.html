@@ -8,27 +8,35 @@
   <!--CSS resets-->
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
-  <script src="js/script.js" async></script>
+  <script scr="js/script.js" async></script>
 </head>
 
-<body>
+<body class="home">
   <div class="nav">
     <!--Sectioned for stying-->
     <div class="topnav">
-      <a href="categories.html">
-        <img src="img/hamburgur_button.png">
-      </a>
-      <a href="https://www.target.com/">
-        <img src="img/target_logo.jpg">
-      </a>
-      <a href="signin.html">
-        <img src="img/icon.png">
-      </a>
-      <a href="https://www.target.com/cart">
-        <img src="img/cart.png">
-      </a>
+      <div id="home_humburger">
+        <a href="categories.html">
+          <img src="img/hamburgur_button.png">
+        </a>
+      </div>
+      <div id="home_logo">
+        <a href="https://www.target.com/">
+          <img src="img/target_logo.jpg">
+        </a>
+      </div>
+      <div id="home_signin">
+        <a href="signin.html">
+          <img src="img/icon.png">
+        </a>
+      </div>
+      <div id="home_cart">
+        <a href="https://www.target.com/cart">
+          <img src="img/cart.png">
+        </a>
+      </div>
     </div>
-    <input type="text" placeholder="Search..">
+    <input type="text" class="nav_search"placeholder="Search..">
     <div class="location_nav">
       <div class="location">
         <img src="img/location.png">
@@ -44,27 +52,38 @@
       </div>
     </div>
   </div>
-  <img src="img/placeholder.jpg" alt="Easter Background of target products like peeps and eggs">
+  <img id="easter_banner" src="img/add.jpg" alt="Easter Background of target products like peeps and eggs">
 
   <div class="home_adds">
-    <a href="https://www.target.com/c/easter-basket-ideas/-/N-ovmzr">
-      <img src="img/placeholder.jpg" alt="button for categories">  
-    </a>
-    <a href="https://www.target.com/finds/trends">
-      <img src="img/placeholder.jpg" alt="image of a trendy ps5">
-      <p>Most Popular</p>
-    </a>
-    <a href="https://www.target.com/c/top-deals/-/N-4xw74">
-      <img src="img/placeholder.jpg" alt="image of a trendy ps5">
-      <p>Hot Deals</p>
-    </a>
-    <a href="https://www.target.com/b/essentials/-/N-4usx3">
-      <img src="img/placeholder.jpg" alt="image of a trendy ps5">
-      <p>Essentaials</p>
-    </a>
-
+    <div class="add_row ">
+      <div class="add_column">
+        <a href="https://www.target.com/c/easter-basket-ideas/-/N-ovmzr">
+          <img src="img/easter_basket.png" alt="button for categories">  
+          <p>Shop Easter Favorites</p>
+        </a>
+      </div>
+      <div class="add_column">
+        <a href="https://www.target.com/finds/trends">
+          <img src="img/ps5.png" alt="image of a trendy ps5">
+          <p>Most Popular</p>
+        </a>
+      </div>
+    </div>
+    <div class="add_row ">
+      <div class="add_column">
+        <a href="https://www.target.com/c/top-deals/-/N-4xw74">
+          <img src="img/blender.jpg" alt="image of a trendy ps5">
+          <p>Hot Deals</p>
+        </a>
+      </div>
+      <div class="add_column">
+        <a href="https://www.target.com/b/essentials/-/N-4usx3">
+          <img src="img/kitchen_essentials.png" alt="image of a trendy ps5">
+          <p>Essentaials</p>
+        </a>
+      </div>
+    </div>
   </div>
-  
 </body>
 
 </html>
