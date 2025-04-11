@@ -21,3 +21,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+//JS Code for the Categories Page -- Henry
+
+function toggleDropdown(button) {
+  const dropdown = button.nextElementSibling;
+  dropdown.classList.toggle('show');
+}
+
+// Close all dropdowns if clicked outside
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
