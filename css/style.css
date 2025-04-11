@@ -89,7 +89,6 @@ footer.signinfooter {
 
 /*HENRY'S SECTION*/
 /*Use this for partial borders: https://unused-css.com/blog/css-partial-borders/ */
-
 #categories-flex-container {
   display: flex;
   align-items: center;
@@ -101,11 +100,11 @@ footer.signinfooter {
   box-sizing: border-box;
   padding: 0.5rem 1rem;
   z-index: 1000;
+  top: 0;
+  transition: top 0.3s; /*Must pair with javascript to have the top bar disappear.*/
 }
 
-#arrow-button,
-#filter-button,
-#home-button {
+#arrow-button, #filter-button, #home-button {
   display: flex;
   align-items: center;
   min-width: 0; /* prevents flex overflow */
@@ -118,14 +117,37 @@ footer.signinfooter {
   font-size: 2.779em;
 }
 
-.dropdown-content {
+.categories-dropdown {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
   display: block;
+  position: relative;
+}
+.categories-dropdown button {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: auto; 
   text-align: left;
-  padding: 1rem 0.75rem; /* now properly spaced */
+  font-size: 1.667em;
+  font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
-
-.category-links {
-  border-top: 1px solid #808080;
+.dropdown-content {
+  display: grid;
+  text-align: left;
+  padding: 8px 16px; /* now properly spaced */
+}
+.dropdown-content a {
+  display: block;
+  padding: 1rem;
   border-bottom: 1px solid #808080;
+  width: 100%;
 }
 
+/*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
