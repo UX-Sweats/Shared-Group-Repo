@@ -215,13 +215,18 @@ header.homeheader{
   margin-right: 0%;
 }
 ::placeholder{
-  color: #777777;
+  color: #393535;
+  font-size: 1.667em;
 }
-input.nav_search {
-  border: none;
-  border-radius: 25px;
+input.nav_search{
+  width: 90%;
+  align-items: center;
+  border-radius: 45px;
+  padding: 2em;
   margin: 1em;
-  color: #B5B2B2;
+  background-color: #928787;
+  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+  padding-left:30px;
 }
 .location_nav {
   display: flex;
@@ -260,4 +265,16 @@ input.nav_search {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  padding: 1em;
+}
+.add_column a img{
+  background-color: #FFB13C;
+  border-radius: 10%;
+  align-items: center;
+}
+.add_column a p{
+  color: #333333;
+  font-size: 2.779em;
+  text-align: center;
+  text-decoration: none;
 }
