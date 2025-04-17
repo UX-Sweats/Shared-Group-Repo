@@ -121,12 +121,6 @@ footer.signinfooter {
   transition: top 0.3s; /*Must pair with javascript to have the top bar disappear.*/
 }
 
-#arrow-button, #filter-button, #home-button {
-  display: flex;
-  align-items: center;
-  min-width: 0; /* prevents flex overflow */
-}
-
 #categories-header {
   flex-grow: 1; /* header takes up available space */
   text-align: center;
@@ -252,7 +246,7 @@ input.nav_search{
   width:90%;
 }
 .nav p{
-  size: 3.821em;
+  font-size: 3.821em;
 }
 .add_row {
   display: flex;
