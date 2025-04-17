@@ -242,7 +242,7 @@ input.nav_search {
   width:90%;
 }
 .nav p{
-  resize: 3.821em;
+  font-size: 3.821em;
 }
 .add_row {
   display: flex;
