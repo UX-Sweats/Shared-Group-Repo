@@ -177,46 +177,51 @@ footer.signinfooter {
 }
 
 /*Hailie's comments for Index*/
-
-header.homeheader {
+*{
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header.homeheader{
   background-color: #cc0000;
   height: 20px;
 }
-
-.topnav {
+.topnav{
   display: flex;
   align-items: flex-start;
   margin: 1em;
   justify-content: space-between;
   padding-right: 0%;
 }
-
-.topnav img {
+.topnav img{
   width:6.632em;
 }
-
-.topnav :first-child {
+.topnav :first-child{
   align-self: center;
 }
-
-#home_logo {
-  margin-right:30%;
-  margin-left:30%;
+#home_logo{
+  margin: 0 auto;
 }
-#home_signin {
+#home_signin{
   margin-right: 0%;
 }
 ::placeholder{
-  color: #777777;
+  color: #393535;
+  font-size: 1.667em;
 }
-
-input.nav_search {
-  border: none;
-  border-radius: 25px;
+input.nav_search{
+  width: 90%;
+  align-items: center;
+  border-radius: 45px;
+  padding: 2em;
   margin: 1em;
-  color: #B5B2B2;
+  background-color: #928787;
+  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+  padding-left:30px;
 }
-
 .location_nav {
   display: flex;
   align-items: flex-start;
@@ -237,7 +242,6 @@ input.nav_search {
 .home_adds{
   background-color: #FEE2BE;
 }
-
 .add_column img{
   width:90%;
 }
@@ -250,10 +254,21 @@ input.nav_search {
   flex-wrap: wrap;
   width: 100%;
 }
-
 .add_column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  padding: 1em;
+}
+.add_column a img{
+  background-color: #FFB13C;
+  border-radius: 10%;
+  align-items: center;
+}
+.add_column a p{
+  color: #333333;
+  font-size: 2.779em;
+  text-align: center;
+  text-decoration: none;
 }
