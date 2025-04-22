@@ -170,13 +170,13 @@ footer.signinfooter {
 }
 /*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
 @media screen and (min-width: 768px) {
-
+  
 }
 @media screen and (min-width: 992px) {
 
 }
 
-/*Hailie's comments for Index*/
+/*Hailie's style for Index*/
 *{
   box-sizing: border-box;
 }
@@ -192,7 +192,7 @@ header.homeheader{
 .topnav{
   display: flex;
   align-items: flex-start;
-  margin: 1em;
+  padding: 1em;
   justify-content: space-between;
   padding-right: 0%;
 }
@@ -261,14 +261,78 @@ input.nav_search{
   flex: 1;
   padding: 1em;
 }
-.add_column a img{
+.add_column a img {
   background-color: #FFB13C;
   border-radius: 10%;
   align-items: center;
 }
-.add_column a p{
+.add_column a p {
   color: #333333;
   font-size: 2.779em;
   text-align: center;
   text-decoration: none;
+}
+
+/*Hailie's style for index desktop*/
+@media only screen and (min-width: 992px) {
+  /*desktop*/
+  .topnav div a img {
+    width: 2.5em ;
+  }
+  input.nav_search {
+    background-color: #CC0001;
+    color: white;
+    border-color: #B42454;
+    justify-content: center;  
+    font-size: 0.825em;
+    height: 2em;
+    width: 75%;
+    padding: 1em;
+  }
+  .nav_search::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .topnav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 0em;
+  }
+  .nav_search {
+    margin-left: 5em;
+  }
+  .location_nav {
+    display: flex;
+    gap: 35em; 
+    align-items: center;
+    margin-left: auto;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .location img {
+    width: 2.5em;
+  }
+  .location p {
+    font-size: 1em;
+  }
+  .location_nav {
+    margin: 0.5;
+  }
+
+  /*Make the banner the background or float right*/
+}
+
+@media only screen and (min-width: 480px) {
+  /*ipad */
 }
