@@ -127,6 +127,7 @@ footer.signinfooter {
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 2.779em;
   margin: 0;
+  color: #FFFF;
 }
 
 .categories-dropdown {
@@ -143,6 +144,8 @@ footer.signinfooter {
   height: auto;
   padding: 1.5rem 2rem;
   margin-top: 1.5rem;
+  background-color: #FF474C;
+  color: #FFFF;
 }
 .dropdown-content { /*REMOVE POSITION: ABSOLUTE IF YOU WANT DROP DOWNS TO NOT CLIP THROUGH!*/
   display: none;
@@ -170,7 +173,15 @@ footer.signinfooter {
 }
 /*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
 @media screen and (min-width: 768px) {
-
+  .categories-dropdown {
+    padding: 0;
+  }
+  .categories-dropdown button {
+    font-size: 3em;
+    height: auto;
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+  }
 }
 @media screen and (min-width: 992px) {
 
