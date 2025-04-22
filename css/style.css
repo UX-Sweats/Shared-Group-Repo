@@ -144,8 +144,6 @@ footer.signinfooter {
   font-size: 2em;
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   height: auto;
-  padding: 1.5rem 2rem;
-  margin-top: 1.5rem;
   background-color: #FF474C;
   color: #FFFF;
 }
@@ -182,7 +180,7 @@ footer.signinfooter {
     font-size: 3em;
     height: auto;
     padding: 5rem 3rem;
-    margin-top: 3rem;
+    margin-top: 1em;
   }
 }
 @media screen and (min-width: 992px) {
@@ -234,6 +232,7 @@ input.nav_search{
   background-color: #928787;
   background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left:30px;
+  margin-bottom: 2em;
 }
 .location_nav {
   display: flex;
