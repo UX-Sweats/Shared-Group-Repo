@@ -103,8 +103,9 @@ footer.signinfooter {
 #category-logo {
   display: block;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-top: 3rem;
-  box-sizing: border-box; /*Unsure of how to fix this so Target logo sits on top of the red bar.*/
+
 }
 #categories-flex-container {
   display: flex;
@@ -134,6 +135,7 @@ footer.signinfooter {
   padding-top: 1.25rem;
   display: block;
   position: relative;
+  margin-top: -64px; /*For some reason, there was a 64px margin. This is a temporary fix to get it to work right.*/
 }
 .categories-dropdown button {
   display: flex;
@@ -179,8 +181,8 @@ footer.signinfooter {
   .categories-dropdown button {
     font-size: 3em;
     height: auto;
-    padding: 3rem 2rem;
-    margin-top: 4rem;
+    padding: 5rem 3rem;
+    margin-top: 3rem;
   }
 }
 @media screen and (min-width: 992px) {
