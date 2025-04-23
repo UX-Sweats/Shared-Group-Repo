@@ -283,11 +283,11 @@ input.nav_search{
     background-color: #CC0001;
     color: white;
     border-color: #B42454;
-    justify-content: center;  
+    justify-content: center;
     font-size: 0.825em;
-    height: 2em;
+    height: 3em;
     width: 75%;
-    padding: 1em;
+    padding: 2em;
   }
   .nav_search::placeholder {
     color: white;
@@ -303,14 +303,13 @@ input.nav_search{
     display: flex;
     align-items: center;
     gap: 1em;
-    padding-bottom: 0em;
   }
   .nav_search {
     margin-left: 5em;
   }
   .location_nav {
     display: flex;
-    gap: 35em; 
+    gap: 30em; 
     align-items: center;
     margin-left: auto;
   }
@@ -331,6 +330,42 @@ input.nav_search{
   }
 
   /*Make the banner the background or float right*/
+  #easter_banner {
+    display: none; /* Hide the Easter banner image */
+  }
+  .home_adds {
+    background-image: url('../img/desktop_homeb.jpg'); /* Set the Easter banner as background */
+    background-size: 100%; /* Make sure the background image covers the container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Don't repeat the background */
+    padding: 20px; /* Optional: add padding to avoid text being too close to the edges */
+    background-color: transparent;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; /* Stack the rows vertically */
+    gap: 20px; /* Space between rows */
+    position: relative; /* Ensure the background is properly placed */
+  }
+  .add_column{
+    background-color: #FFB13C;
+    border-radius: 10%;
+    align-items: center;
+    padding: 2em;
+    margin: 5em;
+  }
+  .add_column a img {
+    background-color: transparent;
+    border-radius: 0%;
+  }
+  .add_column a p {
+    font-size: 1.667em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .add_column:hover {
+    box-shadow: 2px 2px 5px #d9692c;
+  }
 }
 
 @media only screen and (min-width: 480px) {
