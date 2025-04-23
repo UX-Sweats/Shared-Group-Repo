@@ -276,6 +276,9 @@ input.nav_search{
 /*Hailie's style for index desktop*/
 @media only screen and (min-width: 992px) {
   /*desktop*/
+  .body{
+    margin: 0;
+  }
   .topnav div a img {
     width: 2.5em ;
   }
@@ -290,7 +293,8 @@ input.nav_search{
     padding: 2em;
   }
   .nav_search::placeholder {
-    color: white;
+    color: #999;
+    font-size: 0.825em;
     opacity: 1;
   }
   .nav {
@@ -309,48 +313,144 @@ input.nav_search{
   }
   .location_nav {
     display: flex;
-    gap: 30em; 
+    justify-content: center;
     align-items: center;
-    margin-left: auto;
+    gap: 2em;
+    margin: 0 auto;
+    padding: 1em;
+    flex-wrap: wrap;
+    padding-top: 0%;
   }
   .location {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
   }
   .location img {
-    width: 2.5em;
+    width: 3em;
+    padding: 0%;
+    margin: 0%;
   }
   .location p {
     font-size: 1em;
+    margin: 0;
   }
-  .location_nav {
-    margin: 0.5;
-  }
-
-  /*Make the banner the background or float right*/
   #easter_banner {
-    display: none; /* Hide the Easter banner image */
+    display: none;
   }
   .home_adds {
-    background-image: url('../img/desktop_homeb.jpg'); /* Set the Easter banner as background */
-    background-size: 100%; /* Make sure the background image covers the container */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Don't repeat the background */
-    padding: 20px; /* Optional: add padding to avoid text being too close to the edges */
+    background-image: url('../img/desktop_homeb.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: transparent;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column; /* Stack the rows vertically */
-    gap: 20px; /* Space between rows */
-    position: relative; /* Ensure the background is properly placed */
+    flex-direction: column;
+    position: relative;
   }
   .add_column{
     background-color: #FFB13C;
     border-radius: 10%;
     align-items: center;
+    padding: 1em;
+    margin: 3em;
+  }
+  .add_column a img {
+    background-color: transparent;
+    border-radius: 0%;
+  }
+  .add_column a p {
+    font-size: 1.667em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .add_column:hover {
+    box-shadow: 2px 2px 5px #d9692c;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  /*ipad */
+  .body{
+    margin: 0;
+  }
+  .topnav div a img {
+    width: 2.5em ;
+  }
+  input.nav_search {
+    background-color: #CC0001;
+    color: white;
+    border-color: #B42454;
+    justify-content: center;
+    font-size: 0.825em;
+    height: 3em;
+    width: 75%;
     padding: 2em;
+  }
+  .nav_search::placeholder {
+    color: #999;
+    font-size: 0.825em;
+    opacity: 1;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .topnav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .nav_search {
+    margin-left: 5em;
+  }
+  .location_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    padding: 1em;
+    flex-wrap: wrap;
+    padding-top: 0%;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .location img {
+    width: 3em;
+    padding: 0%;
+    margin: 0%;
+  }
+  .location p {
+    margin: 0;
+  }
+  #easter_banner {
+    display: none;
+  }
+  .home_adds {
+    background-image: url('../img/desktop_homeb.jpg');
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 15em; /* adjust as needed */
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #CFDB99;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .add_column{
+    background-color: #FFB13C;
+    border-radius: 10%;
+    align-items: center;
+    padding: 1em;
     margin: 5em;
   }
   .add_column a img {
@@ -362,12 +462,7 @@ input.nav_search{
     text-align: center;
     text-decoration: none;
   }
-
   .add_column:hover {
     box-shadow: 2px 2px 5px #d9692c;
   }
-}
-
-@media only screen and (min-width: 480px) {
-  /*ipad */
 }
