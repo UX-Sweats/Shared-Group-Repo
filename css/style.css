@@ -173,7 +173,15 @@ footer.signinfooter {
 }
 /*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
 @media screen and (min-width: 768px) {
-
+  .categories-dropdown {
+    padding: 0;
+  }
+  .categories-dropdown button {
+    font-size: 3em;
+    height: auto;
+    padding: 5rem 3rem;
+    margin-top: 1em;
+  }
 }
 @media screen and (min-width: 992px) {
 
