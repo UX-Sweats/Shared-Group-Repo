@@ -103,8 +103,9 @@ footer.signinfooter {
 #category-logo {
   display: block;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-top: 3rem;
-  box-sizing: border-box; /*Unsure of how to fix this so Target logo sits on top of the red bar.*/
+
 }
 #categories-flex-container {
   display: flex;
@@ -127,12 +128,14 @@ footer.signinfooter {
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 2.779em;
   margin: 0;
+  color: #FFFF;
 }
 
 .categories-dropdown {
   padding-top: 1.25rem;
   display: block;
   position: relative;
+  margin-top: -64px; /*For some reason, there was a 64px margin. This is a temporary fix to get it to work right.*/
 }
 .categories-dropdown button {
   display: flex;
@@ -141,8 +144,8 @@ footer.signinfooter {
   font-size: 2em;
   font-family: 'Helvetica for Target', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   height: auto;
-  padding: 1.5rem 2rem;
-  margin-top: 1.5rem;
+  background-color: #FF474C;
+  color: #FFFF;
 }
 .dropdown-content { /*REMOVE POSITION: ABSOLUTE IF YOU WANT DROP DOWNS TO NOT CLIP THROUGH!*/
   display: none;
@@ -170,7 +173,7 @@ footer.signinfooter {
 }
 /*SCREEN QUERIES. We are assuming Mobile-First Design, which is on min-width: 600px. */
 @media screen and (min-width: 768px) {
-  
+
 }
 @media screen and (min-width: 992px) {
 
@@ -221,6 +224,7 @@ input.nav_search{
   background-color: #928787;
   background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left:30px;
+  margin-bottom: 2em;
 }
 .location_nav {
   display: flex;

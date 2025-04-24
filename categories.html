@@ -11,13 +11,30 @@
   <script src="js/script.js" async></script>
 </head>
 <body>
-  <a href="https://www.target.com/"><img src="img/target_logo.jpg" class="logo" id="category-logo" alt="Target Logo"></a>
-  <div id="categories-flex-container"> <!--Header underneath Target logo-->
-  <a href="index.html">ARROW</a> <!--Arrow Link-->
-  <h1 id="categories-header">All Categories</h1>
-  <a href="index.html">FILTER</a> <!--Filter Link-->
-  <a href="index.html">HOME</a> <!--Home Button-->
+  <div class="nav">
+    <div class="topnav">
+      <div id="home_humburger">
+        <a href="categories.html">
+          <img src="img/hamburgur_button.png" alt="A hamburger button for sorting">
+        </a>
+      </div>
+      <div id="home_logo">
+        <a href="https://www.target.com/">
+          <img src="img/target_logo.jpg" alt="Target Logo">
+        </a>
+      </div>
+      <div id="home_signin">
+        <a href="signin.html">
+          <img src="img/icon.png" alt="Account Sign-in">
+        </a>
+      </div>
+      <div id="home_cart">
+        <a href="https://www.target.com/cart">
+          <img src="img/cart.png" alt="Checkout">
+        </a>
+      </div>
   </div>
+  <input type="text" class="nav_search" placeholder="Search..">
   <div class="categories-dropdown"> <!--Lifestyle-->
     <button onclick="toggleDropdown(this)" class="dropbtn">Lifestyle</button>
     <div class="dropdown-content">
