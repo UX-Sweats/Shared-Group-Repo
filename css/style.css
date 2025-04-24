@@ -176,7 +176,6 @@ footer.signinfooter {
   .categories-dropdown {
     padding: 0;
   }
- 
   .categories-dropdown button {
     font-size: 3em;
     height: auto;
@@ -185,7 +184,8 @@ footer.signinfooter {
   }
 }
 
-/*Hailie's style for Index*/
+
+/*Hailie's comments for Index*/
 *{
   box-sizing: border-box;
 }
@@ -201,7 +201,7 @@ header.homeheader{
 .topnav{
   display: flex;
   align-items: flex-start;
-  padding: 1em;
+  margin: 1em;
   justify-content: space-between;
   padding-right: 0%;
 }
@@ -282,7 +282,6 @@ input.nav_search{
   text-align: center;
   text-decoration: none;
 }
-
 /*Hailie's style for index desktop*/
 @media only screen and (min-width: 992px) {
   /*desktop*/
