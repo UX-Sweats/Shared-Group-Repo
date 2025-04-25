@@ -186,77 +186,61 @@ footer.signinfooter {
 
 
 /*Hailie's comments for Index*/
-*{
-  box-sizing: border-box;
-}
-html, body{
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-header.homeheader{
-  background-color: #cc0000;
-  height: 20px;
-}
-.topnav{
+.topnav {
   display: flex;
-  align-items: flex-start;
-  margin: 1em;
+  align-items: center;
   justify-content: space-between;
+  margin: 1em;
+  gap: 1em;
   padding-right: 0%;
 }
-.topnav img{
-  width:6.632em;
+.topnav img {
+  width: 2.779em;
 }
-.topnav :first-child{
+.topnav :first-child {
   align-self: center;
 }
-#home_logo{
+#home_logo {
   margin: 0 auto;
 }
-#home_signin{
+#home_signin {
   margin-right: 0%;
 }
-::placeholder{
+::placeholder {
   color: #393535;
-  font-size: 1.667em;
+  font-size: 1em;
 }
-input.nav_search{
-  width: 90%;
-  align-items: center;
-  border-radius: 45px;
-  padding: 2em;
-  margin: 1em;
-  background-color: #928787;
-  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
-  padding-left:30px;
-  margin-bottom: 2em;
+input.nav_search {
+  width: 80%;
+  border-radius: 2.5em;
+  padding: 1em 1em 1em;
+  margin: auto;
+  display:block;
+  background-color: #d6d0d0;
 }
 .location_nav {
   display: flex;
   align-items: flex-start;
-  margin: 1em;
   justify-content: space-between;
+  margin: 1em;
   padding-right: 0%;
 }
 .loction p {
   align-items: center;
   float: left;
+  font-size: 1em;
 }
-.location img{
-  width:5em;
+.location img {
+  width: 2.779em;
 }
-#easter_banner{
-  width:100%;
+#easter_banner {
+  width: 100%;
 }
-.home_adds{
+.home_adds {
   background-color: #FEE2BE;
 }
-.add_column img{
-  width:90%;
-}
-.nav p{
-  font-size: 3.821em;
+.add_column img {
+  width: 90%;
 }
 .add_row {
   display: flex;
@@ -278,10 +262,13 @@ input.nav_search{
 }
 .add_column a p {
   color: #333333;
-  font-size: 2.779em;
+  font-size: 1.667em;
   text-align: center;
+  margin-top: 1em;
   text-decoration: none;
 }
+
+
 /*Hailie's style for index desktop*/
 @media only screen and (min-width: 992px) {
   /*desktop*/
