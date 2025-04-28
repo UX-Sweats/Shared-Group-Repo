@@ -100,27 +100,6 @@ footer.signinfooter {
 /*End of Carlos' Section*/
 /*HENRY'S SECTION*/
 /*Use this for partial borders: https://unused-css.com/blog/css-partial-borders/ */
-#category-logo {
-  display: block;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-top: 3rem;
-
-}
-#categories-flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* important */
-  position: fixed;
-  width: 100%;
-  height: auto;
-  background-color: #FF0000;
-  box-sizing: border-box;
-  padding: 0.5rem 1rem;
-  z-index: 1000;
-  top: 0;
-  transition: top 0.3s; /*Must pair with javascript to have the top bar disappear.*/
-}
 
 #categories-header {
   flex-grow: 1; /* header takes up available space */
